@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    background-color: #eeecef;
+    position: fixed;
+    height: 100%;
+    font-size: x-large;
+    text-align: center;
+    
+
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+
+li a:hover {
+    background-color: #555;
+    color: white;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.leftpart {
+
+    align-content: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.btn1 {
+
+    background: #1fb6fc !important;
+    border: 1px solid #1fb6fc !important;
+    color: #fff !important;
+    height: 50px;
+
+}
+
+.btn2 {
+
+    background: #bc6ff1 !important;
+    border: 1px solid #bc6ff1 !important;
+    color: #fff !important;
+
+}
+
+.btn {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 40px 40px 40px 0;
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
+
+.Services {
+    display: flex;
+    margin-left: 25%;
+    margin-top: 50px;
+    
+}
+.slp{
+    align-content: center;
+    width: 140vh;
+    margin-top: 50px;
+    margin-right: 20px;
+}
+
+.srp {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 200px 200px;
+    gap: 10px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+}
+
+
+.box{
+    background-color: white;
+    text-align: center;
+    align-content: center;
+    box-shadow: 5px 10px 10px rgb(188, 212, 210);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri;
+    line-height: 30px;
+    
+}
+.box:hover{
+    background-color: rgb(67, 208, 247);
+    text-align: center;
+    align-content: center;
+    color: white;
+    
+}
+.abt {
+    display: flex;
+    height: 100vh;
+    margin-top: 100px;
+    
+
+}
+.abtrightpart {
+
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(129, 127, 127);
+    
+}
+.d-flex{
+    margin-left:20%;
+    
+    height: 380px;
+    
+}
+.card-img-top{
+    height: 40vh;
+   
+}
